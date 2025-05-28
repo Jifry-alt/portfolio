@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jifry Mol - Email Security Engineer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0d47a1;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #0d47a1;
+      border-bottom: 2px solid #0d47a1;
+      padding-bottom: 0.25rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style: disc inside;
+      padding-left: 0;
+    }
+    a {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .project {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 5px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jifry Mol</h1>
+  <p>Email Security Engineer</p>
+</header>
+
+<main>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Experienced Email Security Engineer specializing in securing enterprise email systems from phishing,
+      spam, and malware threats. Skilled in configuring and managing advanced email security platforms,
+      developing security policies, and incident response.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Email Security Protocols: SPF, DKIM, DMARC</li>
+      <li>Email Gateway Security (Proofpoint, Mimecast, Cisco ESA)</li>
+      <li>Anti-Phishing & Anti-Spam Strategies</li>
+      <li>Threat Analysis & Incident Response</li>
+      <li>Scripting & Automation (Python, PowerShell)</li>
+      <li>SIEM & Log Analysis (Splunk, ELK)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Enterprise-wide DMARC Implementation</h3>
+      <p>
+        Led the deployment and enforcement of DMARC across a 10,000-user organization, significantly
+        reducing phishing attacks and email spoofing incidents by 80% within the first 6 months.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Email Gateway Migration to Proofpoint</h3>
+      <p>
+        Managed the migration from legacy email filtering solutions to Proofpoint, improving spam
+        detection rates by 30% and enhancing malware protection.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Phishing Incident Response Automation</h3>
+      <p>
+        Developed Python scripts to automate the analysis and remediation of phishing incidents,
+        decreasing response time by 50%.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:jifry.mol@example.com">jifry.mol@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/jifrymol" target="_blank">linkedin.com/in/jifrymol</a></p>
+    <p>GitHub: <a href="https://github.com/jifrymol" target="_blank">github.com/jifrymol</a></p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Jifry Mol. All rights reserved.
+</footer>
+
+</body>
+</html>
